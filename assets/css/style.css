@@ -1,0 +1,56 @@
+button, div, form, input {
+    margin: 2px;
+}
+
+button, #addButton {
+    background-color: #4aaaa5;
+    color: white;
+} 
+
+#buttons-appear-here {
+    /*  outline: 2px solid red; */
+    float: left;
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#button-form {
+    /*  outline: 2px solid green;  */
+    float: right;
+    margin-right: 190px;
+    margin-top: 30px;
+}
+
+#button-form p {
+    text-align: left;
+    font-weight: bold;
+}
+
+#gifs {
+    /*  outline: 2px solid blue; */
+    position: relative;
+    margin-left: 50px;
+    margin-top: 250px;
+    clear: both;
+    display: flex;
+    width: 1800px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#gifs div {
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 180px;
+    widows: 250px;
+}
